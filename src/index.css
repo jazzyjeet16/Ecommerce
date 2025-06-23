@@ -1,1 +1,5 @@
 @import "tailwindcss";
+/* If you used `className="input"` in other components: */
+.input {
+  @apply border border-gray-300 px-4 py-2 rounded-md w-full focus:outline-none focus:ring-2 focus:ring-yellow-500;
+}
